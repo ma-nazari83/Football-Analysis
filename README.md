@@ -141,6 +141,10 @@ The project uses two models:
 2. **Pitch keypoint detector** — detects known football-pitch landmarks used for perspective transformation.
 
 Model weights are not stored directly in this repository because of their size.
+You can find weights for player detection in :
+https://huggingface.co/martinjolif/yolo-football-player-detection/blob/main/yolo-football-player-detection.pt
+and weights for pitch detection in :
+https://huggingface.co/martinjolif/yolo-football-pitch-detection
 
 <!--
 Add download links when the weights are hosted, for example:
@@ -163,7 +167,11 @@ For example:
 datasets/
 └── simple.mp4
 ```
-
+The Data for training Yolo models can be find in 
+https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc 
+& 
+https://universe.roboflow.com/roboflow-jvuqo/football-field-detection-f07vi
+respectivley
 Large datasets and videos should not normally be committed to Git.
 
 ## Configuration
